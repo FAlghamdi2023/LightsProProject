@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         }
         else{
             view.backgroundColor = .black
-            lightStatus.setTitle("Of", for: .normal)
+            lightStatus.setTitle("Off", for: .normal)
         }
     }
     @IBAction func buttonPressed(_ sender: UIButton) {
